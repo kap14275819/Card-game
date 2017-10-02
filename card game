@@ -1,0 +1,136 @@
+#include <iostream>
+#include <ctime>
+
+using namespace std;
+
+class Card {
+  private:// private class only be accessed through methods within the class
+    int num; //variable for card number
+    int suit; // varibale for card suit
+
+  public:// can be accessed outside the class
+    Card() {
+      srand(time(NULL));
+      num = (1 + (std::rand() % (int)(13)));//randomiser for the card number
+      suit = (1 + (std::rand() % (int)(4)));//randomiser for the card suit
+    }
+
+    int get_num() {//function to get the card number and then returns the number chosen
+      return num;
+    }
+
+    string get_num_string() { //list of numbers which is used by the randomiser
+      if (num == 1) return "Ace";
+      if (num == 2) return "Two";
+      if (num == 3) return "Three"; 
+      if (num == 4) return "Four";
+      if (num == 5) return "Five";
+      if (num == 6) return "Six";
+      if (num == 7) return "Seven";
+      if (num == 8) return "Eight";
+      if (num == 9) return "Nine";
+      if (num == 10) return "Ten";
+      if (num == 11) return "Jack";
+      if (num == 12) return "Queen";
+      if (num == 13) return "King";
+      else return "Uknown num";
+    }
+
+    int get_suit() {//function to get the card suit and then returns the chosen suit
+      return suit;
+    }
+
+    string get_suit_string() {//list of suits which is used by the randomiser
+      if (suit == 1) return "Diamonds";
+      if (suit == 2) return "Hearts";
+      if (suit == 3) return "Spades";
+      if (suit == 4) return "Clubs";
+      else return "Unknown suit";
+    }
+};
+
+class Player {
+  public:
+    string name;//variable for the name
+    float balance;// variable for the balance
+
+
+  public:
+    Player() {//player function for name and balance
+      name = "";//where name will be held in when inputted by player
+      balance = 100;//amount of cash given to player
+
+    }
+};
+
+int main() {
+  int dealer_num;// variable for dealers number
+  int player_num;//variable for the players number
+  float bet;// variable for the betting
+  char choice;//variable for the chosen letter which will be either h or l
+  Card card;//taken from function above to be used in the main
+  Player player = Player();//taken from function above to be used in the main
+
+  cout << "Player, what is your name? ";//asks for player name
+  cin >> player.name;//where player inputs name
+
+;
+
+  while (player.balance < 1000 ) {//while the balance is less than 1000 the game will loop until won or lost
+    cout <<"\n" << player.name << ", you have £"//displays players name and shows amount of cash given to start with
+         << player.balance << ".\n\n ";//display cash
+         
+          if (player.balance == 0){
+            cout << "\nToo bad " + player.name << ". "//if players balance is on zero then the game ends
+         << "\nYou are out of money! You lose.\n";
+        }
+        
+    while (bet == 0 || bet > player.balance) {// checks whether player has bet over the amount he/she has
+      cout << "How much money do you want to bet? ";//asks for amount of money wanting to be placed
+      cin >> bet;//where player inputs bet
+
+      if (bet > player.balance) {//if bet is higher than the balance it will display the message
+        cout << "Sorry, you don't have enough money to make that bet.\n";
+      }
+    }
+
+    card = Card();//uses card function from above to radomise a card
+    dealer_num = card.get_num();// gives dealer a card from the randomiser
+
+    cout << "Dealer draws a " << card.get_num_string() // displays dealers random card
+         << " of " << card.get_suit_string() << ".\n";
+    cout << "Will the next card be higher or lower? "//asks if higher or lower
+         << "Enter \"h\" for higher or \"l\" for lower:\n ";
+    cin >> choice;//where player inputs choice
+
+    card = Card();
+    player_num = card.get_num();//gives player a card from the randomiser
+
+    cout << "\n\nYou draw a " << card.get_num_string()//displays your random card
+         << " of " << card.get_suit_string() << ".\n";
+
+    if ((choice == 'h' && dealer_num > player_num) ||//checks if the player wrote h or l 
+        (choice == 'l' && dealer_num < player_num)) {//also checks if the dealers card is more than or less than the players card
+      player.balance -= bet;// if incorrect players balance falls from the amount he/she has bet
+
+      cout << "Too bad " + player.name//displays name
+           << ". You lose $" << bet << ".\n";//displays amount lost
+    } else {
+      player.balance += bet;//if correct player gains the amount he/she has bet
+
+      cout << "Congratulations " + player.name
+           << ". You win $" << bet << "!\n";//displays amount won
+    }
+
+    bet = 0;//makes sure bet is not looped and allows player to bet a different bet
+  }
+
+  
+  if (player.balance >= 1000){//if player is is at 1000 or above the player has won the game
+    cout << "\nWINNER!!"
+         << "\nYou have won all the winnings congratulations!!!";
+  }
+  
+  return 0;
+}
+
