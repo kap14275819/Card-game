@@ -1,1 +1,1 @@
-# card-game
+# Card Game Project 2
