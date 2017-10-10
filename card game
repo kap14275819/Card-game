@@ -57,7 +57,6 @@ class Player {
 
   public:
     Player() {//player function for name and balance
-      name = "";//where name will be held in when inputted by player
       balance = 100;//amount of cash given to player
 
     }
