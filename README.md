@@ -12,6 +12,8 @@
 
 ## Flow Chart
 
+![flowchart](https://github.com/kap14275819/Card-game-Project-2/blob/master/card%20game.jpg)
+
 ## Product Backlog
 
 ### High Level Function Requirements
