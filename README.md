@@ -17,8 +17,15 @@
 ## Product Backlog
 
 ### High Level Function Requirements
+#### Create set of cards
+#### Create randomiser
+#### 
+####
+####
+####
 
 ### High Level Non-Functional Requirements
+#### Give cards actual suits and ranks
 
 ## Sprint Backlog
 
@@ -31,6 +38,4 @@
 ### Debugging Process
 
 ### Coding Standards
-
-### Evaluation 
 
