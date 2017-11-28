@@ -42,12 +42,14 @@
 #### As a user I should get feedback when I have lost all my money from betting or I have reached the goal set
 
 ## Design Documentation
-
 ### Process of Implementation
 
+
 ### IDE used and Features
+#### The type of Intergrated Development Enviroment that was used was 'Repl.it'. This is an online IDE which has various languages to choose from. There is also a compiler on this online IDE so you are able to also 
 
 ### Debugging Process
+#### The IDE does not have any features for debugging so it would have to be either done manually by typing in your own debugging process or you would have to scroll through the code to find the problem and fix it. 
 
 ### Coding Standards
 #### commenting, indenting
