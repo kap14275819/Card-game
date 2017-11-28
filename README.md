@@ -46,10 +46,10 @@
 
 
 ### IDE used and Features
-#### The type of Intergrated Development Enviroment that was used was 'Repl.it'. This is an online IDE which has various languages to choose from. There is also a compiler on this online IDE so you are able to also 
+#### The type of Intergrated Development Enviroment that was used was 'Repl.it'. This is an online IDE which has various languages to choose from. There is also a compiler on this online IDE so you are able to run the code, it of course consists of a text editor. It also has a data dictionary and a data file viwer.
 
 ### Debugging Process
-#### The IDE does not have any features for debugging so it would have to be either done manually by typing in your own debugging process or you would have to scroll through the code to find the problem and fix it. 
+#### The IDE has a small of debugging process as it shows if there are any errors within the code but it does not show all the types of debugging processes. Some of the debugging you must write yourself if you want to check if that part of the program has worked correctly.
 
 ### Coding Standards
-#### commenting, indenting
+#### While writing my code, indenting was used more often than spacing this is mainly because it saves time instead of repeatedly pressing or holding the space button. Also commenting throughtout the code was done so that when looked over it can show what this part of code does exactly and how it works with the rest of the game.
