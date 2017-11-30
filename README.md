@@ -58,4 +58,4 @@
 #### The use of the IDE which helped in the work as the errors showed the problems that occur in the process of creating the game. But all the work went well and met the critera set including the extension and adding some extra parts. There were some slight difficult parts to understand and to create but in the end it all came together and worked well.
 
 ### Relationship between algorithm and code:
-#### Since the program had been implemented as an algorithm then the best paradigm would be procedural. This is because the program does the process in computational steps, which is just like an algorithm. 
+#### Since the program had been implemented as an algorithm then the best paradigm would be procedural. This is because the program does the process in computational steps, which is just like an algorithm. This is why the procedural paradigm is similar to the program.
