@@ -59,8 +59,9 @@
 ### Coding Standards:
 #### While writing my code, indenting was used more often than spacing this is mainly because it saves time instead of repeatedly pressing or holding the space button. Also commenting throughtout the code was done so that when looked over it can show what this part of code does exactly and how it works with the rest of the game.
 
+## Reasearch:
 
-## Evalutation and Teamwork:
+## Evalutation and Teamwork##:
 #### The use of the IDE which helped in the work as the errors showed the problems that occur in the process of creating the game. But all the work went well and met the critera set including the extension and adding some extra parts. There were some slight difficult parts to understand and to create but in the end it all came together and worked well.
 
 ## Relationship between algorithm and code:
