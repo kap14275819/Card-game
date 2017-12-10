@@ -75,22 +75,24 @@ int main() {
 
 ;
 
-  while (player.balance < 1000 ) {//while the balance is less than 1000 the game will loop until won or lost
+  while (player.balance < 200 ) {//while the balance is less than 1000 the game will loop until won or lost
     cout <<"\n" << player.name << ", you have £"//displays players name and shows amount of cash given to start with
          << player.balance << ".\n\n ";//display cash
          
           if (player.balance == 0){
             cout << "\nToo bad " + player.name << ". "//if players balance is on zero then the game ends
          << "\nYou are out of money! You lose.\n";
-        }
-        
-    while (bet == 0 || bet > player.balance) {// checks whether player has bet over the amount he/she has
+        } 
+    while (bet == 0 || bet > player.balance ) {// checks whether player has bet over the amount he/she has
+    if (player.balance != 0) {
       cout << "How much money do you want to bet? ";//asks for amount of money wanting to be placed
       cin >> bet;//where player inputs bet
+    }
 
       if (bet > player.balance) {//if bet is higher than the balance it will display the message
         cout << "Sorry, you don't have enough money to make that bet.\n";
       }
+    
     }
 
     card = Card();//uses card function from above to radomise a card
@@ -125,11 +127,13 @@ int main() {
   }
 
   
-  if (player.balance >= 1000){//if player is is at 1000 or above the player has won the game
+  if (player.balance >= 200){//if player is is at 1000 or above the player has won the game
     cout << "\nWINNER!!"
-         << "\nYou have won all the winnings congratulations!!!";
+         << "\nYou have won all the winnings congratulations!!!\n";
   }
   
   return 0;
 }
+
+
 
