@@ -1,6 +1,6 @@
 # Card Game Project 2
 ## Core Requirements:
-####
+#### The core requirements are to have set of cards which will be randomised and then shown to the player. Then the player will be asked whether the next card will 'higher' or 'lower'. Once the player has decided, it will then display whether they are correct or not and if they guess correctly they will win a 'cash' prize. 
 
 ## Game Description:
 #### ThIs game is about winning a card game to win a prize at the end. This card game is a 'high' or 'low' card game which means that there is a deck of cards which then one is randomly selected and then displayed. Once the user has read this card they have to guess whether the next card will be 'higher' or 'lower'. If the guess is correct they then win a cash pize. In the game also betting has been implemented which allows them to choose a small amount of money to bet with to then reach a score of 1000 or more.
@@ -60,9 +60,10 @@
 #### While writing my code, indenting was used more often than spacing this is mainly because it saves time instead of repeatedly pressing or holding the space button. Also commenting throughtout the code was done so that when looked over it can show what this part of code does exactly and how it works with the rest of the game.
 
 ## Reasearch:
+#### The types of places that i used for research was usually forums such as 'stackoverflow' which helped on some parts of fixing code but also i used websites such as 'w3schools' which is a coding website and shows multiple different types of coding examples which helped to understand how some of the pieces of code worked. Other forums were also used that are not that known to look through code snippets which helped throughout the process.
 
-## Evalutation and Teamwork##:
-#### The use of the IDE which helped in the work as the errors showed the problems that occur in the process of creating the game. But all the work went well and met the critera set including the extension and adding some extra parts. There were some slight difficult parts to understand and to create but in the end it all came together and worked well.
+## Evalutation and Teamwork:
+#### The use of the IDE which helped in the work as the errors showed the problems that occur in the process of creating the game. But all the work went well and met the critera set including the extension and adding some extra parts. There were some slight difficult parts to understand and to create but in the end it all came together and worked well. This work was managed by myself as it was an individual project without any teamwork. The research, coding and planning all was personally done which was quite good as it shows that i was able to complete this task without any help needed. The research and planning took its time but ended up all well in the end.
 
 ## Relationship between algorithm and code:
 #### Since the program had been implemented as an algorithm then the best paradigm would be procedural. This is because the program does the process in computational steps, which is just like an algorithm. This is why the procedural paradigm is similar to the program.
