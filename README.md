@@ -53,7 +53,7 @@
 ### IDE used and Features:
 #### The type of Intergrated Development Enviroment that was used was 'Repl.it'. This is an online IDE which has various languages to choose from. There is also a compiler on this online IDE so you are able to run the code, it of course consists of a text editor. It also has a data dictionary and a data file viwer.
 
-#### ![IDE]()
+#### ![IDE](https://github.com/kap14275819/Card-game-Project-2/blob/master/IDE2.png)
 
 ### Debugging Process:
 #### The IDE has a small of debugging process as it shows if there are any errors within the code but it does not show all the types of debugging processes. Some of the debugging you must write yourself if you want to check if that part of the program has worked correctly.
