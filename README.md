@@ -59,7 +59,19 @@
 #### The IDE has a small of debugging process as it shows if there are any errors within the code but it does not show all the types of debugging processes. Some of the debugging you must write yourself if you want to check if that part of the program has worked correctly.
 
 ### Coding Standards:
-#### While writing my code, indenting was used more often than spacing this is mainly because it saves time instead of repeatedly pressing or holding the space button. Also commenting throughtout the code was done so that when looked over it can show what this part of code does exactly and how it works with the rest of the game.
+#### Coding Standards are maninly used to make sure that your code looks precise and consistent so that you are able to come back to that part of the code and understand what you have wrote in that particular section. This also can ease the difficulty for other people who might be working with you on the program who will also be using the same coding standards. Here are some of examples of coding standards that i used:
+
+### Indentation 
+#### While writing my code, i used indentation rather than pressing space several times. I used this quite often, as firstly using the tab button saves more time in coding than pressing space multiple time or holding the button. Secondly, the tab button is universal to all text editors and IDE, so this will not have any problems in not working as each of them use indentation.
+
+### Line Length Under 100
+#### If in my code i would be writing a long line of code i would make sure that i would not go over 100 characters in length. The reason i chose to do this is because if i wrote over that amount this would then force the line of code to stretch the screen. This will then have to make me scroll horizontally back and forth to just read the last part of that line of code. By not having lines very long I can save time by not having to scroll to edit.
+
+### Commenting
+#### Comments will be added on top of each code function, this will be done like this so that it will not make the line longer. By doing this will help me understand what that particular function does and how does it help with the rest of the program. This will help with errors as it may appear that a certain part of the program is not working so i know the function needs to be fixed.
+
+### Curley Brackets
+#### My brackets will be places at the end of the line rather than starting a new line as to save space and make the document shorter, It will also make my functions easier to read.
 
 ## Reasearch:
 #### The types of places that i used for research was usually forums such as 'stackoverflow' which helped on some parts of fixing code but also i used websites such as 'w3schools' which is a coding website and shows multiple different types of coding examples which helped to understand how some of the pieces of code worked. Other forums were also used that are not that known to look through code snippets which helped throughout the process.
