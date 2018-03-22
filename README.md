@@ -58,7 +58,7 @@
 ### Debugging Process:
 #### The IDE has a small of debugging process as it shows if there are any errors within the code but it does not show all the types of debugging processes. Some of the debugging you must write yourself if you want to check if that part of the program has worked correctly.
 
-### Coding Standards:
+## Coding Standards:
 #### Coding Standards are maninly used to make sure that your code looks precise and consistent so that you are able to come back to that part of the code and understand what you have wrote in that particular section. This also can ease the difficulty for other people who might be working with you on the program who will also be using the same coding standards. Here are some of examples of coding standards that i used:
 
 ### Indentation 
