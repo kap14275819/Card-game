@@ -51,7 +51,7 @@
 ![ganttchart](https://github.com/kap14275819/Card-game-Project-2/blob/master/Gannt%20Chart%20porject%202.png)
 
 ### IDE used and Features:
-#### The type of Intergrated Development Enviroment that was used was 'Repl.it'. This is an online IDE which has various languages to choose from. There is also a compiler on this online IDE so you are able to run the code, it of course consists of a text editor. It also has a data dictionary and a data file viwer.
+#### The type of Intergrated Development Enviroment that was used was 'Repl.it'. This is an online IDE which has various languages to choose from. There is also a compiler on this online IDE so you are also able to run the code, it of course consists of a text editor so you can have the code running and read through the code. It also has a data dictionary and a data file viwer.
 
 #### ![IDE](https://github.com/kap14275819/Card-game-Project-2/blob/master/IDE2.png)
 
