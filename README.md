@@ -67,6 +67,9 @@
 ### Line Length Under 100
 #### If in my code i would be writing a long line of code i would make sure that i would not go over 100 characters in length. The reason i chose to do this is because if i wrote over that amount this would then force the line of code to stretch the screen. This will then have to make me scroll horizontally back and forth to just read the last part of that line of code. By not having lines very long I can save time by not having to scroll to edit.
 
+### Variable Nmes
+#### The Variable names that were used with the code followed a clear standard. All names started with a capitalised letter and the names will be acoording to what they are storing and not have letters instead, for examples the variable for the input of a players name would be "Name". If multiple variables are storing similarly named data then a number will be added to the end  from 1 and then goes up depending on how many variables there will be.
+
 ### Commenting
 #### Comments will be added on top of each code function, this will be done like this so that it will not make the line longer. By doing this will help me understand what that particular function does and how does it help with the rest of the program. This will help with errors as it may appear that a certain part of the program is not working so i know the function needs to be fixed.
 
