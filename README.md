@@ -45,7 +45,7 @@
 
 ## Design Documentation:
 ### Process of Implementation:
-#### 1. The first step that was taken was to create the randomiser which will randomise the set of numbers/cards which will then be displayed.
+#### 1. The first step that was taken was to create the randomiser which will randomise the set of numbers/cards which will then be displayed.  
 #### 2a. Once the randomiser was completed the decision function was created for the player to then guess whether the next number will be 'higher' or 'lower'.
 #### 2b. Another function was also created with this to check the players response and if that response was correct to the correlation of the number being higher or lower than the previous one.
 #### 3a. If the player wins there has to be some sort of in-game prize, so a 'cash' prize is given if the player correctly guesses the next card to be either 'higher' or 'lower. This is displayed and banked in a variable which stores if for the player to use later.
