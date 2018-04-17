@@ -48,8 +48,8 @@
 #### 1. The first step that was taken was to create the randomiser which will randomise the set of numbers/cards which will then be displayed.
 #### 2a. Once the randomiser was completed the decision function was created for the player to then guess whether the next number will be 'higher' or 'lower'.
 #### 2b. Another function was also created with this to check the players response and if that response was correct to the correlation of the number being higher or lower than the previous one.
-#### 3a. If the player wins there has to be some sort of in-game prize, so a 'cash' prize is given if the player correctly guesses the next card to be either'higher' or 'lower. This is displayed and banked in for the player to use.
-#### 3b. The banked money that is given at the beginning and during the game allows the player to bet so that they can gain a bigger prize win at the end of each guess.
+#### 3a. If the player wins there has to be some sort of in-game prize, so a 'cash' prize is given if the player correctly guesses the next card to be either 'higher' or 'lower. This is displayed and banked in a variable which stores if for the player to use later.
+#### 3b. The banked money that is given at the beginning and during the game allows the player to bet so that they can gain a bigger prize win at the end of each guess. So a small betting function is made to allow players to bet before the game starts. 
 #### 3c. A set goal is also created for the player on the betting so that when they reach around £1000 they will end the game instead of having to end the game after each round. Also if the player reaches ZERO in cash then the game will end as the player has no more cash to bet. 
 #### 4. Extra implementations were added such as changing the numbers to actual cards shown. For example, "King of Hearts". To have this done two types of randomisers will be added in which has a specific set of words within so that it may print out different set of cards each time. 
 
